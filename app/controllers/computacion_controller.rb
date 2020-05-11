@@ -1,0 +1,2 @@
+class ComputacionController < ApplicationController
+end

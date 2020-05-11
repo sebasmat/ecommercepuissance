@@ -1,0 +1,2 @@
+class CamarasController < ApplicationController
+end

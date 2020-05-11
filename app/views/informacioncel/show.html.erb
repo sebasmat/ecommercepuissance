@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Blank</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag "sb-admin-2.min" %>
+</head>
+<body lang="en">
+<h1 class="h3 mb-4 text-gray-800">Pedir prestado</h1>
+<div class="card mb-4 py-3 border-left-info">
+  <h3>&nbspEl hombre que perseguía su sombra</h3>
+  <div class="row card-body">
+    <div class="col col-lg-4">
+      <img src="../img/Nuevo1.jpg" alt="Jovenes" style="width:200px;height:300px;margin-left:30px;">
+    </div>
+    <div class="col col-lg-8">
+      <h4> LIBRO ELECTRÓNICO</h4>
+      <font color="green"> por David Lagercrantz </font>
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class=" nav-item nav-link active" id="descripcion-tab" href="#descripcion" data-toggle="tab" href="#nav-home" role="tab" aria-controls="descripcion" aria-selected="true">Descripción</a>
+          <a class="nav-link nav-item" href="#detalles" id="detalles-tab" data-toggle="tab" href="#detalles" role="tab" aria-controls="detalles" aria-selected="false">Detalles</a>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="descripcion" role="tabpanel" aria-labelledby="descripcion-tab">
+          Lisbeth Salander está cumpliendo condena en la cárcel de Flodberga, en la que intenta a toda costa evitar cualquier tipo de conflicto con el resto de las presas. Pero en el momento en el que Lisbeth se convierte en la protectora de la joven de Bangladesh que ocupa la celda vecina, la peligrosa líder de las internas la coloca en su punto de mira.
+          Holger Palmgren visita a Lisbeth y le explica que ha recibido una serie de documentos que contienen información relativa a los abusos que sufrió ella en su infancia. Salander acude a Mikael Blomkvist y ambos emprenden una investigación que puede sacar a la luz uno de los experimentos más atroces auspiciado por el Gobierno sueco en los años ochenta. Los indicios los llevan hasta Leo Manheimer, socio en la financiera Alfred Ögren, con quien Lisbeth comparte mucho más de lo que creen.
+          En El hombre que perseguía su sombra, la quinta entrega de la serie Millennium, David Lagercrantz entreteje una electrizante historia sobre el abuso de poder y las sombras que, desde niña, acechan a Lisbeth.
+        </div>
+        <div class="tab-pane fade" id="detalles" role="tabpanel" aria-labelledby="detalles-tab">
+          <hr>
+          <b>Editorial: </b> Grupo Planeta - Colombia<br>
+          <b>Edición: </b> Colombiana
+          <hr>
+          <b>OverDrive Read<br></b>
+          ISBN: 9789584260598<br>
+          Tamaño de archivo: 1488 KB<br>
+          Fecha de lanzamiento: 7 de septiembre de 2017
+          <hr>
+          <b>libro electrónico EPUB<br></b>
+          ISBN: 9789584260598<br>
+          Tamaño de archivo: 1488 KB<br>
+          Fecha de lanzamiento: 7 de septiembre de 2017
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="row card-body justify-content-end">
+      <form>
+        <button type=submit class="btn btn-danger btn-icon-split" value="../Libros.html">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-trash"></i>
+                                        </span>
+          <span class="text">Cancelar</span>
+        </button>
+        <button class="btn btn-success btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+          <span class="text">Alquilar</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
