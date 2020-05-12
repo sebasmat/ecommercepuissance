@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Celulares</title>
+</head>
+<body>
+<div class="card mb-4 py-3 border-left-primary" id="lomasnuevo">
+  <h3>&nbsp; Celulares</h3>
+  <div class="row card-body">
+    <% @celulares.each do |celular| %>
+    <div class="col col-lg-3 col-md-6 col-sm-12" align="center"><a href="info/Nuevo1.html" target="_self">
+      <img src="<%= celular.producto.imagen%>" width="100" height="150" align="center" hspace="10" vspace="10">
+    </a>
+      <hr>
+      <%= celular.producto.marca %><br>
+      <%= celular.producto.linea %> <br> <%= celular.producto.precio %><br>
+      <hr>
+      <%= link_to 'MAS INFORMACION', celular_path(celular) %>
+    </div>
+    <% end %>
+  </div>
+
+</div>
+</body>
+</html>
